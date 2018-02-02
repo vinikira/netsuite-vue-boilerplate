@@ -1,0 +1,12 @@
+{
+    "extends": "standard",
+    "rules" : {
+        "semi": 0,
+        "indent": ["error", 4]
+    },
+    "env": {
+        "amd": true,
+        "browser": true,
+        "node": true
+    }
+}
