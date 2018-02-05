@@ -7,7 +7,7 @@
 
 <script>
   export default {
-      Name: 'root',
+      name: 'root',
       data () {
           return {
               msg: 'Hello NetSuite!'
