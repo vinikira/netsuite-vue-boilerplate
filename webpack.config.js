@@ -2,6 +2,7 @@ const path = require('path')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const HtmlWebpackInlineSourcePlugin = require('html-webpack-inline-source-plugin')
 const webpack = require('webpack')
+const packageJSON = require('./package.json')
 
 module.exports = {
     entry: './src/index.js',
@@ -65,7 +66,10 @@ module.exports = {
     devServer: {
         historyApiFallback: true,
         noInfo: true,
-        overlay: true
+        overlay: true,
+        proxy: {
+            '/': packageJSON.proxy
+        }
     },
     performance: {
         hints: false
