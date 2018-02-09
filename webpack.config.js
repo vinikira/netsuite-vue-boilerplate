@@ -68,7 +68,10 @@ module.exports = {
         noInfo: true,
         overlay: true,
         proxy: {
-            '/': packageJSON.proxy
+            '/': {
+                target: packageJSON.proxy,
+                changeOrigin: true
+            }
         }
     },
     performance: {
