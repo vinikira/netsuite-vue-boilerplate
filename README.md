@@ -41,10 +41,10 @@ Use this command to generate a production build:
 ```sh
 npm run build
 ```
-This command will generate a folder (your-project/build) that contains the index.html and the bundle.js files, both minified.
+This command will generate a folder (your-project/dist) that contains the index.html, bundle.js.map and the bundle.js files, all minified.
 
 ## Deploying
-Copy build/index.html (ignore bundle.js because it is inside of index.html) to your NetSuite SuiteScript folder, then is just click in html file on netsuite that a popup will be open with your application.  
+Copy build/index.html (ignore bundle.js and bundle.js.map because it is inside of index.html) to your NetSuite SuiteScript folder, then is just click in html file on netsuite that a popup will be open with your application.  
 
 You can also use a Suitelet Script to serve your application.
 ## Examples
