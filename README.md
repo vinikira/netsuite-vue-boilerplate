@@ -1,5 +1,4 @@
-# netsuite-vue-boilerplate
-[![Build Status](https://travis-ci.org/vinikira/netsuite-vue-boilerplate.svg?branch=master)](https://travis-ci.org/vinikira/netsuite-vue-boilerplate)
+# netsuite-vue-boilerplate [![Build Status](https://travis-ci.org/vinikira/netsuite-vue-boilerplate.svg?branch=master)](https://travis-ci.org/vinikira/netsuite-vue-boilerplate)
 A vuejs boilerplate for netsuite, that allow build all application in one file html for put in your File Cabinet. 
 ## Getting started
 Clone this repository and install dependenciess.
