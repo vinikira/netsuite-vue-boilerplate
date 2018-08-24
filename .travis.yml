@@ -1,0 +1,7 @@
+language: node_js
+
+install:
+  - npm i
+
+build:
+  - npm run build
